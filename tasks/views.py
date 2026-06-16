@@ -18,3 +18,6 @@ def show_specific_task(request, id):
 
 def dashboard(request, id):
     return HttpResponse("This is dashboard")
+
+def show_admin(request):
+    return HttpResponse("This is admin")
